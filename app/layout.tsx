@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+   metadataBase: new URL("https://avinash-portfolio-v2.vercel.app/"),
+   
   title: "Avinash Rathod | AI Engineer | GenAI, RAG & Automation",
   description:
     "AI Engineer specializing in Generative AI, RAG, intelligent workflows, automation, APIs, and enterprise applications.",
@@ -27,6 +29,21 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://avinash-portfolio-v2.vercel.app/",
     siteName: "Avinash Rathod Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Avinash Rathod - AI Engineer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Avinash Rathod | AI Engineer",
+    description:
+      "AI Engineer specializing in Generative AI, RAG, intelligent workflows, automation, APIs, and enterprise applications.",
+    images: ["/og-image.png"],
   },
 };
 export default function RootLayout({
