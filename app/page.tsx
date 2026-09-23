@@ -3,27 +3,27 @@ import React from "react";
 const skills = [
   {
     icon: "AI",
-    title: "AI & Automation",
-    text: "AI-powered workflows, agentic automation, conversational AI and RAG knowledge systems.",
-    tags: ["Dify", "GenAI", "RAG", "Automation"]
+    title: "Generative AI & LLMs",
+    text: "Building practical AI applications and LLM-powered solutions for real-world business use cases.",
+    tags: ["GenAI", "LLMs", "RAG", "AI Applications","AI Workflows","Prompt Engineering"]
   },
   {
     icon: "</>",
-    title: "APIs & Integrations",
-    text: "REST APIs, third-party integrations, authentication flows and technical troubleshooting.",
-    tags: ["REST", "Postman", "SAML", "OAuth"]
+    title: "RAG & Knowledge Systems",
+    text: "Designing knowledge-based AI solutions using retrieval, contextual information, and LLMs.",
+    tags: ["RAG", "Knowledge Bases", "Dify"]
   },
   {
     icon: "DB",
-    title: "Enterprise Applications",
-    text: "Supporting and engineering reliable SaaS applications with production-focused problem solving.",
-    tags: ["SaaS", "RCA", "Production", "Release"]
+    title: "AI Workflow Automation",
+    text: "Building intelligent workflows that combine AI, business logic, APIs, validation, and automation.",
+    tags: ["AI Workflows", "Automations", "APIs"]
   },
   {
     icon: "RAG",
-    title: "RAG & Knowledge Systems",
-    text: "Retrieval-augmented systems designed to improve knowledge access and business workflows.",
-    tags: ["Knowledge Base", "Retrieval", "LLM"]
+    title: "Enterprise AI Integration",
+    text: "Connecting AI solutions with REST APIs, authentication, enterprise applications, and business systems.",
+    tags: ["REST APIs", "OAuth", "Enterprise Apps"]
   }
 ];
 
@@ -54,7 +54,7 @@ const experience = [
   },
   {
     period: "Dec 2023 — Nov 2025",
-    role: "Product Solution Engineer",
+    role: "AI Engineer",
     company: "HigherEd BPO Pvt. Ltd. — Client: Ready Education / CampusGroups",
     summary:
       "Delivered end-to-end technical support for enterprise SaaS platforms used by universities and educational institutions.",
@@ -72,17 +72,17 @@ const projects = [
     number: "01",
     title: "AI Knowledge Assistant",
     description:
-      "A RAG-oriented assistant concept that combines a knowledge base, retrieval and an LLM response layer to answer business questions with relevant context.",
+      "A RAG-oriented AI assistant concept that combines a knowledge base, retrieval, and an LLM response layer to provide relevant, context-aware answers to business questions.",
     tags: ["Dify", "RAG", "GenAI"],
     status: "Technical case study",
     flow: ["Knowledge Base", "Retrieval", "LLM"]
   },
   {
     number: "02",
-    title: "Intelligent Workflow Automation",
+    title: "Intelligent AI Workflow Automation",
     description:
-      "A workflow architecture for routing requests, validating inputs, calling business APIs and producing a final AI-assisted response.",
-    tags: ["Automation", "APIs", "Dify"],
+      "An intelligent workflow architecture that combines request routing, input validation, business APIs, automation logic, and an AI-assisted final response.",
+    tags: ["Automation", "APIs", "AI", "Dify"],
     status: "Technical case study",
     flow: ["Request", "Validation", "Business API"]
   },
@@ -130,10 +130,10 @@ export default function Home() {
           <div className="availability"><span /> Open to Opportunities</div>
           <p className="eyebrow">PRODUCT • AI • AUTOMATION</p>
           <h1>Hi, I&apos;m <span>Avinash Rathod</span></h1>
-          <h2>Product Solution Engineer</h2>
+          <h2>AI Engineer</h2>
           <div className="hero-keywords">AI <i>•</i> AUTOMATION <i>•</i> APIS <i>•</i> ENTERPRISE APPLICATIONS</div>
           <p className="hero-text">
-            I work across AI-powered workflows, enterprise SaaS, APIs, integrations and application support to turn complex business requirements into practical and scalable technical solutions.
+          I build AI-powered workflows, automation solutions, RAG systems, API integrations, and scalable enterprise applications.
           </p>
           <div className="hero-actions">
             <a className="button primary" href="#projects">View My Work <span>→</span></a>
@@ -179,16 +179,16 @@ export default function Home() {
           <h2>Turning complex problems into <span>practical solutions.</span></h2>
           <div>
             <p>
-              I&apos;m a Product Solution Engineer with experience across enterprise SaaS, application support, APIs, integrations and AI-powered workflows.
+             I'm an AI Engineer focused on building practical AI solutions that connect Generative AI, RAG, automation, APIs, and enterprise applications. I enjoy turning business requirements into reliable technical solutions and intelligent workflows that solve real-world problems.
             </p>
             <p>
-              I enjoy working at the intersection of technology and real-world business problems — understanding what needs to be solved, finding the right technical path and helping move solutions into reliable production systems.
+            My experience spans AI-powered workflows, knowledge-based applications, REST API integrations, enterprise application support, production troubleshooting, and technical problem solving. I'm particularly interested in building scalable AI applications and automation solutions that create measurable value for users and businesses.
             </p>
           </div>
         </div>
         <div className="stats-row">
           <div><strong>2.8+</strong><span>Years of experience</span></div>
-          <div><strong>AI +</strong><span>Automation & RAG focus</span></div>
+          <div><strong>AI</strong><span>Engineering Focus</span></div>
           <div><strong>API</strong><span>Integration & troubleshooting</span></div>
           <div><strong>RCA</strong><span>Production problem solving</span></div>
         </div>
@@ -261,9 +261,9 @@ export default function Home() {
 
       <section className="contact section-shell" id="contact">
         <div className="contact-glow" />
-        <div className="section-label"><span /> LET&apos;S CONNECT</div>
+        <div className="section-label"><span /> Let's Build Something Intelligent</div>
         <h2>Have a problem worth <span>solving?</span></h2>
-        <p>Whether it&apos;s an AI workflow, an integration challenge or an enterprise application problem, let&apos;s connect.</p>
+        <p>Interested in AI engineering, Generative AI, RAG, automation, or enterprise application development? Let's connect and explore ideas, opportunities, and technical challenges.</p>
         <div className="contact-actions">
           <a className="button primary" href="mailto:aviravi08@gmail.com">Email Me →</a>
           <a className="button secondary" href="https://www.linkedin.com/in/avinash-rathod-71509720b/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
