@@ -1,0 +1,3 @@
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"Avinash Rathod | Product Solution Engineer",description:"Portfolio of Avinash Rathod — Product Solution Engineer working across AI, automation, APIs, integrations and enterprise applications.",keywords:["Avinash Rathod","Product Solution Engineer","AI Engineer","Agentic Workflow Engineer","RAG","Dify","API Integration","Enterprise Applications"],openGraph:{title:"Avinash Rathod | Product Solution Engineer",description:"AI, automation, APIs and enterprise application solutions."}}])},70864,function(a){a.n(a.i(33290))}];
+
+//# sourceMappingURL=app_layout_tsx_2144vk_._.js.map
