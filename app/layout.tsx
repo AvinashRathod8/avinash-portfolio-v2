@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
    metadataBase: new URL("https://avinash-portfolio-v2.vercel.app/"),
-   
+
   title: "Avinash Rathod | AI Engineer | GenAI, RAG & Automation",
   description:
     "AI Engineer specializing in Generative AI, RAG, intelligent workflows, automation, APIs, and enterprise applications.",
@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Avinash Rathod" }],
   creator: "Avinash Rathod",
+
+  verification: {
+    google: "f-FHOQQfCNKxT3P8gbz_yEczqAEVMt27MboF1c0rGf8",
+  },
+  
   openGraph: {
     title: "Avinash Rathod | AI Engineer",
     description:
