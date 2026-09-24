@@ -137,7 +137,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button primary" href="#projects">View My Work <span>→</span></a>
-            <a className="button secondary" href="/Avinash-Rathod-Resume.pdf" download>Download Resume <span>↓</span></a>
+            <a className="button secondary" href="/Avinash-Rathod-Resume.docx" download> Download Resume <span>↓</span></a>
           </div>
           <div className="hero-meta">
             <span>Based in Bengaluru, India</span>
